@@ -1,6 +1,6 @@
 # The-Very-Merry-Men (TVMM)
 
-> Stock tracker and purchase portal
+> Stock tracker and purchase portal (the earnings graph component)
 
 ## Related Projects
 
@@ -90,23 +90,3 @@
 | POST | /stocks/:stock_id/earnings | stock id and earnings object | earnings object added to db | posts estimated earnings entry to table, reported_earnings and outstanding_shares are empty, to be updated when released |
 | PUT | /stocks/:stock_id/earnings/:year/:quarter | stock id and quarter and year query and data to update | updated earnings for that quarter and year | (later) updates earnings data for given quarter and year when earnings and outstanding share are officially reported |
 
-
-
-## Requirements
-
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
-
-- Node 6.13.0
-- etc
-
-## Development
-
-### Installing Dependencies
-
-From within the root directory:
-
-```sh
-npm install -g webpack
-npm install
-```
-# steam_recentNews
